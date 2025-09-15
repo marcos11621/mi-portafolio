@@ -5,6 +5,6 @@ Bienvenido a mi portafolio. Aquí encontrarás mis proyectos, habilidades y trab
 ---
 
 ## 🚀 Sobre mí
-Soy Marcos desarrollador de software y web, con interés en seguir aprendiendo y conseguir mi primer emmpleo.
+Soy Marcos desarrollador de software y web, con interés en seguir aprendiendo
 
 ¡Gracias por visitar mi portafolio! 😄
