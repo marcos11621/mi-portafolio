@@ -1,0 +1,115 @@
+/* Fuente */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f7f9;
+  color: #2c3e50;
+  line-height: 1.6;
+}
+
+/* Encabezado con degradado */
+header {
+  background: linear-gradient(135deg, #87befd, #007aff);
+  color: #fff;
+  padding: 3rem 2rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+
+header p {
+  margin: 0.5rem 0 0;
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* Menú de navegación */
+nav {
+  background: #fff;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav a {
+  color: #007aff;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: 600;
+  padding-bottom: 0.2rem;
+}
+
+nav a:hover {
+  background-color: cornflowerblue;
+  color: #0051a3;
+  border-bottom: 2px solid #0051a3;
+}
+
+/* Secciones */
+section {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-3px);
+}
+
+section h2 {
+  border-left: 6px solid #007aff;
+  padding-left: 0.8rem;
+  margin-bottom: 1rem;
+  color: #007aff;
+}
+
+/* Listas */
+.skills ul, .projects ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li, .projects li {
+  background: #eef5ff;
+  margin: 0.5rem 0;
+  padding: 0.8rem;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.skills li:hover, .projects li:hover {
+  background: #d9eaff;
+}
+
+/* Enlaces */
+a {
+  color: #007aff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #000000;
+  color: #fff;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
